@@ -44,12 +44,6 @@ function App() {
           >
             Reset
           </button>
-          <button
-            className="  border-2 border-amber-700 bg-blue-500 rounded "
-            onClick={() => setNumber(number)}
-          >
-            Submit
-          </button>
 
           <button
             onClick={() => setDarkMode(!darkMode)}
